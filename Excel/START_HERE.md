@@ -18,3 +18,11 @@ To address this issue, the product/app needs to focus on improving initial user 
 
 
 What I used for analysis: **VLOOKUP, Pivot tables, product metrics, diagrams**
+
+
+## DAU / WAU / MAU calculations of the previous project
+
+| DAU | WAU | MAU |
+|-----|-----|-----|
+| 32  | 171 | 352 |
+| Stickness = 0.0909090909090909 |     |     |
