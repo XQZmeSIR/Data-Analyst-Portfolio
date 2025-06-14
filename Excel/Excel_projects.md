@@ -14,4 +14,4 @@ To address this issue, the product/app needs to focus on improving initial user 
 - Incentivizing continued use: Implement loyalty programs or rewards to encourage users to return regularly.
 
 
-What I used for analysis: VLOOKUP, Pivot tables, product metrics, diagrams
+What I used for analysis: **VLOOKUP, Pivot tables, product metrics, diagrams**
