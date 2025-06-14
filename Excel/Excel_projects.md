@@ -1,7 +1,7 @@
 # Excel portfolio
 
 ## **N-day** retention calculation and its diagram analysis
-![N-day retention](N-day retention calculation.png)
+![N-day retention](N-day-retention-calculation.png)
 
 Conclusion: Based on the diagram, we can conclude that **N-day retention** decreases dramatically. Nearly 80% of users churned after the first day. Following this rapid decline, there was a slight spike in activity, possibly due to a marketing campaign (ads), but the user retention continued to decrease overall.
 
