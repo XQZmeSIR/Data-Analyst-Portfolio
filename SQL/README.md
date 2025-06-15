@@ -5,7 +5,7 @@ This project involves analyzing sales data from a coffee shop to gain insights i
 
 I took the [dataset](https://www.kaggle.com/datasets/ihelon/coffee-sales) in .csv format from Kaggle and imported it into DBeaver.
 
-What was used: SELECT, CTE, GROUPING, SUBQUERIES, D 
+What was used: `SELECT, CTE, AGGREGATE FUCNTIONS, WINDOW FUNCTIONS, GROUPING, SUBQUERIES, STRFTIME()`
 
 ## Dataset
 The dataset used for this analysis is stored in the `data/` directory in CSV format. It includes the following columns:
