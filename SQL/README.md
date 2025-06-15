@@ -1,7 +1,7 @@
 # Coffee Shop Sales Analysis
 
 ## Overview
-This project involves analyzing sales data from a coffee shop to gain insights into product performance and customer behavior. The dataset contains transaction records, including details about the date, payment method, coffee products sold, and revenue generated.  
+This project involves analyzing sales data from a coffee shop to gain insights into product performance and customer behavior. The dataset `coffee-shop.csv` contains transaction records, including details about the date, payment method, coffee products sold, and revenue generated.  
 
 I took the [dataset](https://www.kaggle.com/datasets/ihelon/coffee-sales) in .csv format from Kaggle and imported it into DBeaver.
 
