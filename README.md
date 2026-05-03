@@ -55,14 +55,5 @@ I am open to new opportunities and interesting data projects!
 
 ## Excel Projects & Portfolio
 
-### Local Excel Files
-
-- **Project 1 — [`[file-name.xlsx]`](./Excel/[file-name.xlsx])**
-- **Project 2 — [`[file-name.xlsx]`](./Excel/[file-name.xlsx])**
-- **Project 3 — [`[file-name.xlsx]`](./Excel/[file-name.xlsx])**
-
-### Google Sheets (External Links)
-
-- **Project 4 — [Link to Google Sheets](https://docs.google.com/spreadsheets/d/your-sheet-id-here)**
-- **Project 5 — [Link to Google Sheets](https://docs.google.com/spreadsheets/d/your-sheet-id-here)**
-- **Project 6 — [Link to Google Sheets](https://docs.google.com/spreadsheets/d/your-sheet-id-here)**
+- **Расчет индекса сезонности — [Ссылка на Гугл таблицы](https://docs.google.com/spreadsheets/d/1nr4UKoSn-1gs24vAzUmdx4vYPa_kdPXY22pmKylZmkQ/edit?usp=sharing)**
+- **ABC анализ товаров маркетплейса — [Excel файл](./Excel/ABC-Marketplace-analysis.xlsx)**
