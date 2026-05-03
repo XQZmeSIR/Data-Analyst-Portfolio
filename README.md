@@ -50,3 +50,19 @@ I am open to new opportunities and interesting data projects!
 
 *   **Master of Science in Economics (Business Analytics)**, North Ossetian State University, 2024.
 *   **Bachelor of Science in Economics (Finance and Credit)**, North Ossetian State University, 2021.
+
+---
+
+## Excel Projects & Portfolio
+
+### Local Excel Files
+
+- **Project 1 — [`[file-name.xlsx]`](./Excel/[file-name.xlsx])**
+- **Project 2 — [`[file-name.xlsx]`](./Excel/[file-name.xlsx])**
+- **Project 3 — [`[file-name.xlsx]`](./Excel/[file-name.xlsx])**
+
+### Google Sheets (External Links)
+
+- **Project 4 — [Link to Google Sheets](https://docs.google.com/spreadsheets/d/your-sheet-id-here)**
+- **Project 5 — [Link to Google Sheets](https://docs.google.com/spreadsheets/d/your-sheet-id-here)**
+- **Project 6 — [Link to Google Sheets](https://docs.google.com/spreadsheets/d/your-sheet-id-here)**
