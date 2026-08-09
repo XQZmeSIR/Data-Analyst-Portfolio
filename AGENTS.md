@@ -1,5 +1,6 @@
 # AGENTS.md — Data Analyst Portfolio
 
+(will be adding new stuff here)
 ## Quick start
 
 - **Python**: `uv sync` installs all deps from `pyproject.toml` + `uv.lock`
