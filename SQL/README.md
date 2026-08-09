@@ -1,3 +1,17 @@
+# SQL Portfolio
+
+A collection of SQL analysis projects demonstrating skills from basic queries to advanced window functions and customer segmentation.
+
+## Projects
+
+| File | Topic | Key Techniques |
+|------|-------|----------------|
+| `COHORT_RFM_DATA.sql` | Pharmacy sales dataset (raw data + inserts) | Table creation, data loading |
+| `WINDOW_FUNCTIONS.sql` | 8 progressive exercises on window functions | LAG, LEAD, RANK, NTILE, PERCENT_RANK, running totals, rolling averages |
+| `RFM_ANALYSIS.sql` | Full RFM customer segmentation pipeline | CTEs, NTILE scoring, CASE segmentation, aggregate analytics |
+
+---
+
 # Coffee Shop Sales Analysis
 
 ## Overview
@@ -5,7 +19,7 @@ This project involves analyzing sales data from a coffee shop to gain insights i
 
 I took the [dataset](https://www.kaggle.com/datasets/ihelon/coffee-sales) in .csv format from Kaggle and imported it into DBeaver.
 
-What was used: `SELECT, CTE, AGGREGATE FUCNTIONS, WINDOW FUNCTIONS, GROUPING, SUBQUERIES, STRFTIME()`
+What was used: `SELECT, CTE, AGGREGATE FUNCTIONS, WINDOW FUNCTIONS, GROUPING, SUBQUERIES, STRFTIME()`
 
 ## Dataset
 The dataset used for this analysis is stored in the `data/` directory in CSV format. It includes the following columns:
@@ -96,3 +110,43 @@ GROUP BY 1, 2, 3
 HAVING duplicate_count > 1
 
 ```
+
+---
+
+# Window Functions Practice
+
+## Overview
+8 progressive exercises using the pharmacy `checks` dataset, building from basic LAG/LEAD to NTILE tiering.
+
+What was used: `LAG, LEAD, RANK, DENSE_RANK, NTILE, PERCENT_RANK, FIRST_VALUE, LAST_VALUE, SUM/AVG OVER, CTE, CASE`
+
+### Exercises
+| # | Topic | Function |
+|---|-------|----------|
+| 1 | Time between customer purchases | `LAG()` |
+| 2 | Running total of revenue per customer | `SUM() OVER (ORDER BY ...)` |
+| 3 | Rank customers by total spend | `RANK()`, `DENSE_RANK()` |
+| 4 | Rank shops by daily revenue | `RANK() OVER (PARTITION BY ...)` |
+| 5 | Rolling 3-transaction average | `AVG() OVER (ROWS BETWEEN ...)` |
+| 6 | First and last purchase per customer | `FIRST_VALUE()`, `LAST_VALUE()` |
+| 7 | Percentile rank of customer spend | `PERCENT_RANK()` |
+| 8 | Split customers into 4 spend tiers | `NTILE(4)` |
+
+---
+
+# RFM Customer Segmentation
+
+## Overview
+Full RFM (Recency, Frequency, Monetary) analysis pipeline that scores customers and assigns business segments. Built as a progressive extension of the window functions exercises.
+
+What was used: `CTE, NTILE, LAG, SUM/COUNT OVER, CASE WHEN, aggregate functions`
+
+### Pipeline Steps
+| Step | What it does |
+|------|--------------|
+| 1 | Calculate raw RFM values (days since last purchase, transaction count, total spend) |
+| 2 | Score each dimension 1-4 using `NTILE(4)` |
+| 3 | Combine scores into an RFM cell (e.g., `432`) |
+| 4 | Assign customer segments: Champions, Loyal, Potential Loyalists, Recent, At Risk, Can't Lose Them, Hibernating, Lost |
+| 5 | Segment summary statistics (counts, averages, total revenue) |
+| 6 | RFM distribution heatmap data (customer counts per RFM cell) |
